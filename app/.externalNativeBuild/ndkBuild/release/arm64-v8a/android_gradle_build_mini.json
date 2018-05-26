@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk",
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "ezusb-release-arm64-v8a": {
+      "artifactName": "ezusb",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libezusb.so",
+      "abi": "arm64-v8a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libezusb.so"
+    },
+    "processor-release-arm64-v8a": {
+      "artifactName": "processor",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libprocessor.so",
+      "abi": "arm64-v8a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libprocessor.so"
+    },
+    "trigger-release-arm64-v8a": {
+      "artifactName": "trigger",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libtrigger.so",
+      "abi": "arm64-v8a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libtrigger.so"
+    },
+    "copy-release-arm64-v8a": {
+      "artifactName": "copy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libcopy.so",
+      "abi": "arm64-v8a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libcopy.so"
+    },
+    "vertexcopy-release-arm64-v8a": {
+      "artifactName": "vertexcopy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libvertexcopy.so",
+      "abi": "arm64-v8a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libvertexcopy.so"
+    }
+  }
+}

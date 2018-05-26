@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk",
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "processor-release-x86": {
+      "artifactName": "processor",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/x86/libprocessor.so",
+      "abi": "x86",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libprocessor.so"
+    },
+    "trigger-release-x86": {
+      "artifactName": "trigger",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/x86/libtrigger.so",
+      "abi": "x86",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libtrigger.so"
+    },
+    "ezusb-release-x86": {
+      "artifactName": "ezusb",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/x86/libezusb.so",
+      "abi": "x86",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libezusb.so"
+    },
+    "copy-release-x86": {
+      "artifactName": "copy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/x86/libcopy.so",
+      "abi": "x86",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libcopy.so"
+    },
+    "vertexcopy-release-x86": {
+      "artifactName": "vertexcopy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/release/obj/local/x86/libvertexcopy.so",
+      "abi": "x86",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libvertexcopy.so"
+    }
+  }
+}

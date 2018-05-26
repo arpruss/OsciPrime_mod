@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk",
+    "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "trigger-debug-armeabi-v7a": {
+      "artifactName": "trigger",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtrigger.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtrigger.so"
+    },
+    "copy-debug-armeabi-v7a": {
+      "artifactName": "copy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcopy.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libcopy.so"
+    },
+    "vertexcopy-debug-armeabi-v7a": {
+      "artifactName": "vertexcopy",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libvertexcopy.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libvertexcopy.so"
+    },
+    "processor-debug-armeabi-v7a": {
+      "artifactName": "processor",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libprocessor.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libprocessor.so"
+    },
+    "ezusb-debug-armeabi-v7a": {
+      "artifactName": "ezusb",
+      "buildCommand": "C:\\Users\\alexander_pruss\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/cygwin64/home/Alexander_Pruss/android/OsciPrime/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libezusb.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\cygwin64\\home\\Alexander_Pruss\\android\\OsciPrime\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libezusb.so"
+    }
+  }
+}
