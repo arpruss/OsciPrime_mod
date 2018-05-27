@@ -61,7 +61,7 @@ public class UsbDebugHelper {
 			public OsciPrimeApplication getContext() {
 				return null;
 			}
-		}, handler);
+		}, handler, false);
 	}
 
 	@SuppressLint("NewApi")

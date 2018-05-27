@@ -77,21 +77,25 @@ public class UsbController {
 	private final int PID_PRE = 0x8613;
 	private final int VID_POST = 0x04B4;
 	private final int PID_POST = 0x1004;
+	private final int SERIAL_VID = 0x81b1;
+	private final int SERIAL_PID = 0x7ce3;
 	protected static final String ACTION_USB_PERMISSION = "ch.serverbox.android.USB";
+    private boolean mSerial;
 
-	/**
+    /**
 	 * Activity is needed for onResult
 	 * 
 	 * @param parentContext
 	 * @param svc 
 	 */
 	public UsbController(Context parentContext,
-			IServiceInterface svc, IUsbConnectionHandler connectionHandler) {
+			IServiceInterface svc, IUsbConnectionHandler connectionHandler, boolean serial) {
 		mApplicationContext = parentContext.getApplicationContext();
 		mSvc = svc;
 		mConnectionHandler = connectionHandler;
 		mUsbManager = (UsbManager) mApplicationContext
 				.getSystemService(Context.USB_SERVICE);
+		mSerial = serial;
 		init();
 	}
 	
@@ -135,7 +139,7 @@ public class UsbController {
 			l("Found device: "
 					+ String.format("%04X:%04X", d.getVendorId(),
 							d.getProductId()));
-			if (d.getVendorId() == VID_PRE && d.getProductId() == PID_PRE) {
+			if (!mSerial && d.getVendorId() == VID_PRE && d.getProductId() == PID_PRE) {
 				l("Device under: " + d.getDeviceName());
 				if (!mUsbManager.hasPermission(d)){
 					listener.onPermissionDenied(d);
@@ -145,7 +149,7 @@ public class UsbController {
 					return;
 				}
 			}
-			if (d.getVendorId() == VID_POST && d.getProductId() == PID_POST) {
+			if (!mSerial && d.getVendorId() == VID_POST && d.getProductId() == PID_POST) {
 				l("Device under: " + d.getDeviceName());
 				if (!mUsbManager.hasPermission(d)){
 					l("no permission on scope");
@@ -154,6 +158,19 @@ public class UsbController {
 					return;
 				}else{
 					l("starting handler");
+					startHandler(d);
+					return;
+				}
+			}
+			if (mSerial && d.getVendorId() == SERIAL_VID && d.getProductId() == SERIAL_PID) {
+				l("Device under: " + d.getDeviceName());
+				if (!mUsbManager.hasPermission(d)){
+					l("no permission on serial scope");
+					listener.onPermissionDenied(d);
+					//it's ok, user will grant permission
+					return;
+				}else{
+					l("starting serial handler");
 					startHandler(d);
 					return;
 				}
@@ -212,13 +229,16 @@ public class UsbController {
 					final UsbDevice dev = (UsbDevice) intent
 							.getParcelableExtra(UsbManager.EXTRA_DEVICE);
 					if (dev != null) {
-						if (dev.getVendorId() == VID_PRE
+						if (!mSerial && dev.getVendorId() == VID_PRE
 								&& dev.getProductId() == PID_PRE) {
 							dispatchUpload(dev);
-						}else if(dev.getVendorId() == VID_POST && dev.getProductId() == PID_POST){
+						}else if(!mSerial && dev.getVendorId() == VID_POST && dev.getProductId() == PID_POST){
 							startHandler(dev);
-						}
-					} else {
+						}else if(mSerial && dev.getVendorId() == SERIAL_VID && dev.getProductId() == SERIAL_PID){
+						startHandler(dev);
+					}
+
+				} else {
 						e("device not present!");
 					}
 				}

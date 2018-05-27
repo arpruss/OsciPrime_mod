@@ -2,10 +2,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 19
     buildToolsVersion "27.0.3"
-
     defaultConfig {
         applicationId "ch.nexuscomputing.android.osciprimeics"
-        minSdkVersion 10
+        minSdkVersion 14
         targetSdkVersion 19
 
         ndk {
@@ -13,7 +12,6 @@ android {
             abiFilters 'armeabi-v7a'
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -25,12 +23,14 @@ android {
             path 'src/main/jni/Android.mk'
         }
     }
-
     lintOptions {
         abortOnError false
+    }
+    productFlavors {
     }
 }
 
 dependencies {
+    compile project(':usbserial-4.5.2-release')
     implementation 'com.android.support:support-v4:19.1.0'
 }

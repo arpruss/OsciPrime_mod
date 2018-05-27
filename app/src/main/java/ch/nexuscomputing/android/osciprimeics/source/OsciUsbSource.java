@@ -120,7 +120,7 @@ public class OsciUsbSource implements Source{
 					mSvc.onError();    
 				}
 			}
-		}); 
+		}, false);
 	}
 	
 	
